@@ -30,7 +30,7 @@ else if (IsEnabled = 0)
 
 Loop 30
 {
-    SendInput r
+   SendInput {vk0x52}
     Sleep 30
 }
 return
