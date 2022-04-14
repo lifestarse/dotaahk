@@ -1,4 +1,4 @@
-﻿#SingleInstance Force
+#SingleInstance Force
 #InstallKeybdHook
 #NoEnv
 SendMode Input
@@ -15,6 +15,7 @@ Gui, Add, Picture,x10 y290 h30, ShadowFiend/ShadowFiend.png
 Gui, Add, Picture,x10 y330 h30, Slark/Slark.png
 Gui, Add, Picture,x10 y370 h30, Tinker/Tinker.png
 Gui, Add, Picture,x12 y413 h25 w30, PowerTreads/PowerTreads.png
+Gui, Add, Picture,x10 y450 h25, Marci/Marci.png
 Gui Add, Button, x55 y10 h30 w110 gAxe, Axe
 Gui Add, Button, x55 y50 h30 w110 gEnigma, Enigma
 Gui Add, Button, x55 y90 h30 w110 gInvoker, Invoker
@@ -26,8 +27,9 @@ Gui Add, Button, x55 y290 h30 w110 gShadowFiend, Shadow Fiend
 Gui Add, Button, x55 y330 h30 w110 gSlark, Slark
 Gui Add, Button, x55 y370 h30 w110 gTinker, Tinker
 Gui Add, Button, x55 y410 h30 w110 gPowerTreads, Power Treads
-Gui Add, Checkbox, x25 y460 vbox Checked, Запустить настройки?
-Gui Show, h480 w180 , Launcher
+Gui Add, Button, x55 y450 h30 w110 gMarci, Marci
+Gui Add, Checkbox, x25 y490 vbox Checked, Запустить настройки?
+Gui Show, h510 w180 , Launcher
 Return
 GuiClose:
 ExitApp
@@ -182,6 +184,18 @@ If box = 1
 If box = 0 
 {
 	Run PowerTreads\PowerTreads.ahk 
+ ExitApp
+}
+Marci:
+Gui, Submit, NoHide
+If box = 1 
+{
+	Run Marci\Config.ahk 
+ ExitApp
+}
+If box = 0 
+{
+	Run Marci\Marci.ahk 
  ExitApp
 }
 return
