@@ -36,6 +36,20 @@ SendInput {%Blink%}
 Sleep 50
 SendInput {vk0x51}
 Sleep 100
+Loop 30
+{
+   SendInput {vk0x43}
+    Sleep 30
+}
+Loop 20
+{
+   SendInput {vk0x41}
+    Sleep 30
+}
+return 
+
+SendInput {vk0x51}
+Sleep 100
 Loop 20
 {
    SendInput {vk0x43}
