@@ -72,5 +72,5 @@ Soul Ring > Blink > Hex > Dagon > Laser > Missile > Rearm
 ```
 ## Marci ![Marci](https://github.com/lifestarse/dotaahk/blob/master/Marci/Marci.png)
 ```
-ульта+3 скилл на себя>блинк>предмет 1>предмет 2>первый скилл
+ульта > 3 скилл на себя > блинк>предмет 1 > предмет 2 > первый скилл. 
 требуеться держать курсор на цели и блинкаться так чтобы не перекинуть врага куда вам не нужно
