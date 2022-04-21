@@ -1,4 +1,4 @@
-﻿#SingleInstance Force
+#SingleInstance Force
 #InstallKeybdHook
 #NoEnv
 SendMode Input
@@ -88,109 +88,109 @@ Return
 
 
 GW:
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput d
+SendInput {vk0x44}
 Return
 
 CS:
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 IW:
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 EMP:
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 T:
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 A:
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 SS:
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 FS:
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 CM:
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 DB:
-SendInput q
+SendInput {vk0x51}
 Sleep 100
-SendInput w
+SendInput {vk0x57}
 Sleep 100
-SendInput e
+SendInput {vk0x45}
 Sleep 100
-SendInput r
+SendInput {vk0x52}
 Return
 
 SaveConfig:
