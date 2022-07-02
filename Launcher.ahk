@@ -28,8 +28,9 @@ Gui Add, Button, x55 y330 h30 w110 gSlark, Slark
 Gui Add, Button, x55 y370 h30 w110 gTinker, Tinker
 Gui Add, Button, x55 y410 h30 w110 gPowerTreads, Power Treads
 Gui Add, Button, x55 y450 h30 w110 gMarci, Marci
-Gui Add, Checkbox, x25 y490 vbox Checked, Запустить настройки?
-Gui Show, h510 w180 , Launcher
+Gui Add, Button, x55 y490 h30 w110 gArmlet, Armlet
+Gui Add, Checkbox, x25 y540 vbox Checked, Запустить настройки?
+Gui Show, h560 w180 , Launcher
 Return
 GuiClose:
 ExitApp
@@ -196,6 +197,18 @@ If box = 1
 If box = 0 
 {
 	Run Marci\Marci.ahk 
+ ExitApp
+}
+Armlet:
+Gui, Submit, NoHide
+If box = 1 
+{
+	Run Armlet\Config.ahk 
+ ExitApp
+}
+If box = 0 
+{
+	Run Armlet\Armlet.ahk 
  ExitApp
 }
 return
