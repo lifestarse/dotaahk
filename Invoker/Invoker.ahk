@@ -89,108 +89,109 @@ Return
 
 GW:
 SendInput {vk0x51}
-Sleep 100
 SendInput {vk0x51}
-Sleep 100
 SendInput {vk0x57}
-Sleep 100
 SendInput {vk0x52}
-Sleep 100
+sleep 200
 SendInput {vk0x57}
-Sleep 100
 SendInput {vk0x57}
-Sleep 100
 SendInput {vk0x44}
 Return
 
 CS:
 SendInput {vk0x51}
-Sleep 100
 SendInput {vk0x51}
-Sleep 100
 SendInput {vk0x51}
-Sleep 100
 SendInput {vk0x52}
+sleep 200
+SendInput {vk0x44}
 Return
 
 IW:
 SendInput {vk0x51}
-Sleep 100
 SendInput {vk0x51}
-Sleep 100
 SendInput {vk0x45}
-Sleep 100
 SendInput {vk0x52}
+sleep 200
+SendInput {vk0x44}
 Return
 
 EMP:
 SendInput {vk0x57}
-Sleep 100
 SendInput {vk0x57}
-Sleep 100
 SendInput {vk0x57}
-Sleep 100
 SendInput {vk0x52}
+sleep 200
+SendInput {vk0x44}
 Return
 
 T:
 SendInput {vk0x57}
-Sleep 100
 SendInput {vk0x57}
-Sleep 100
 SendInput {vk0x51}
-Sleep 100
 SendInput {vk0x52}
+sleep 200
+SendInput {vk0x44}
 Return
 
 A:
 SendInput {vk0x57}
-Sleep 100
+
 SendInput {vk0x57}
-Sleep 100
+
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x52}
+sleep 200
+SendInput !{vk0x44}
 Return
 
 SS:
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x52}
+sleep 200
+SendInput {vk0x44}
 Return
 
 FS:
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x51}
-Sleep 100
+
 SendInput {vk0x52}
+sleep 200
+SendInput {vk0x44}
 Return
 
 CM:
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x57}
-Sleep 100
+
 SendInput {vk0x52}
+sleep 200
+SendInput {vk0x44}
 Return
 
 DB:
 SendInput {vk0x51}
-Sleep 100
+
 SendInput {vk0x57}
-Sleep 100
+
 SendInput {vk0x45}
-Sleep 100
+
 SendInput {vk0x52}
+sleep 200
+SendInput {vk0x44}
 Return
 
 SaveConfig:
